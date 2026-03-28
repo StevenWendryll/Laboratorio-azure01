@@ -42,12 +42,15 @@ Realizar o provisionamento de uma **Máquina Virtual Windows** no Microsoft Azur
 ### 🖥️ 2. Criação da Máquina Virtual
 
 - Serviço selecionado: Máquinas Virtuais  
-- Nome da VM: `myVM`  
+- Nome da VM: `VmTeste1`  
 - Imagem: Windows Server 2022 Datacenter  
 - Usuário administrador criado  
 
 📸 **Evidência:**  
-> *(Inserir print da tela de criação da VM aqui)*
+
+![](assets/img1.png)
+![](assets/img2.png)
+![](assets/img3.png)
 
 ---
 
@@ -58,7 +61,8 @@ Realizar o provisionamento de uma **Máquina Virtual Windows** no Microsoft Azur
   - HTTP (80)
 
 📸 **Evidência:**  
-> *(Inserir print das regras de porta de entrada aqui)*
+
+![](assets/img4.png)
 
 ---
 
@@ -67,9 +71,6 @@ Realizar o provisionamento de uma **Máquina Virtual Windows** no Microsoft Azur
 - Habilitado desligamento automático  
 - Fuso horário configurado  
 
-📸 **Evidência:**  
-> *(Inserir print da aba de gerenciamento aqui)*
-
 ---
 
 ### ✅ 5. Validação e Criação
@@ -77,8 +78,10 @@ Realizar o provisionamento de uma **Máquina Virtual Windows** no Microsoft Azur
 - Validação dos recursos  
 - Criação da VM iniciada  
 
-📸 **Evidência:**  
-> *(Inserir print da validação e criação aqui)*
+![](assets/img5.png)
+![](assets/img6.png)
+![](assets/img7.png)
+![](assets/img8.png)
 
 ---
 
@@ -87,14 +90,26 @@ Realizar o provisionamento de uma **Máquina Virtual Windows** no Microsoft Azur
 - Download do arquivo `.rdp`  
 - Conexão com a VM usando credenciais criadas  
 
-📸 **Evidência:**  
-> *(Inserir print da conexão RDP aqui)*
-
 ---
 
 ### 🌍 7. Instalação do IIS
 
 Comando executado no PowerShell:
 
-```powershell
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
+powershell
+```Install-WindowsFeature -name Web-Server -IncludeManagementTools```
+
+📸 **Evidência:**  
+
+![](assets/img10.png)
+
+---
+
+### ✅ 5. Validação do ISS Windows Server
+
+- Na visão geral da VM, passe o mouse sobre o endereço IP para mostrar Copiar para área de transferência. Copie o endereço IP e cole-o em uma guia do navegador. A página de boas-vinda do IIS padrão será aberta.
+
+📸 **Evidência:**  
+
+![](assets/img11.png)
+
