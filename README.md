@@ -143,3 +143,20 @@ Provisionamento de infraestrutura em nuvem
 Configuração de acesso remoto
 Publicação de serviços web
 Gerenciamento de recursos no Azure
+
+---
+
+## 📌 Autor
+
+**Steven Wendryll**  
+📍 Anchieta - ES  
+💼 Desenvolvedor | Estudante de Análise e Desenvolvimento de Sistemas  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/steven-wendryll/)  
+🔗 [GitHub](https://github.com/StevenWendryll)  
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para contribuir ou sugerir melhorias!
