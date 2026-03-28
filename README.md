@@ -130,12 +130,12 @@ powershell
 ✔️ Servidor IIS instalado e funcional
 ✔️ Página web acessível via navegador
 
-## ⚠️ Observações
+### ⚠️ Observações
 Esta atividade foi realizada para fins educacionais
 Não representa um ambiente de produção
 Configurações de segurança adicionais seriam necessárias em cenário real
 
-## 🎯 Conclusão
+### 🎯 Conclusão
 
 A prática permitiu compreender na prática:
 
