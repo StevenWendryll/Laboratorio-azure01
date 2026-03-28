@@ -105,11 +105,41 @@ powershell
 
 ---
 
-### ✅ 5. Validação do ISS Windows Server
+### 🌐 8. Teste no Navegador
 
-- Na visão geral da VM, passe o mouse sobre o endereço IP para mostrar Copiar para área de transferência. Copie o endereço IP e cole-o em uma guia do navegador. A página de boas-vinda do IIS padrão será aberta.
+- Acesso via IP público da VM
+- Exibição da página padrão do IIS
 
 📸 **Evidência:**  
 
 ![](assets/img11.png)
 
+---
+
+### 🧹 9. Limpeza dos Recursos
+
+- Exclusão do grupo de recursos
+- Remoção da VM e serviços associados
+
+---
+
+### 📊 Resultados Obtidos
+
+✔️ VM criada com sucesso
+✔️ Conexão remota estabelecida via RDP
+✔️ Servidor IIS instalado e funcional
+✔️ Página web acessível via navegador
+
+## ⚠️ Observações
+Esta atividade foi realizada para fins educacionais
+Não representa um ambiente de produção
+Configurações de segurança adicionais seriam necessárias em cenário real
+
+## 🎯 Conclusão
+
+A prática permitiu compreender na prática:
+
+Provisionamento de infraestrutura em nuvem
+Configuração de acesso remoto
+Publicação de serviços web
+Gerenciamento de recursos no Azure
