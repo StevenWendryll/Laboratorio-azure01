@@ -146,7 +146,7 @@ Gerenciamento de recursos no Azure
 
 ---
 
-## 📌 Autor
+### 📌 Autor
 
 **Steven Wendryll**  
 📍 Anchieta - ES  
@@ -157,6 +157,6 @@ Gerenciamento de recursos no Azure
 
 ---
 
-## ⭐ Contribuição
+### ⭐ Contribuição
 
 Sinta-se à vontade para contribuir ou sugerir melhorias!
